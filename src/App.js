@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import CntCounter from './Counter';
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <CntCounter></CntCounter>
     </div>
+    
   );
 }
 
